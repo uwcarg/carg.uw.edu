@@ -35,14 +35,10 @@
     "typeface-cantata-one": "^0.0.54",
     "typeface-open-sans": "^0.0.54"
   },
-  "keywords": [
-    "clinical",
-    "data",
-    "science"
-  ],
+  "keywords": ["clinical", "data", "science"],
   "scripts": {
     "develop": "gatsby develop -o -p 9339",
-    "build": "gatsby build",
+    "build": "npm run prebuild && gatsby build",
     "clean": "rimraf ./public",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
