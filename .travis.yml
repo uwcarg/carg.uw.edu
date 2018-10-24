@@ -17,6 +17,6 @@ script:
 
 deploy:
   provider: script
-  script: sshpass -p ${TRAVIS_PASS} scp -r public/* ${TRAVIS_USER}@wilcoxlab.uw.edu:/opt/wilcoxlab/www/
+  script: sshpass -e scp -r public/* travis@wilcoxlab.uw.edu:/opt/wilcoxlab/www/
   on:
     branch: master
