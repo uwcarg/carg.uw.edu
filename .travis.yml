@@ -18,8 +18,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script:
-    - ls -lah
-    - sshpass -e scp -r ./public/* travis@wilcoxlab.uw.edu:/opt/wilcoxlab/www/
+  script: bash scripts/deploy.sh
   on:
     branch: master
