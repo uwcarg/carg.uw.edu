@@ -7,7 +7,7 @@ import "typeface-open-sans";
 
 import SEO from "../components/SEO";
 import SVG from "../components/SVG";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard, { TrianglifyCard } from "../components/ProjectCard";
 import {
   rotate,
   UpDown,
@@ -21,7 +21,6 @@ import adam from "../images/adam.jpg";
 import "../styles/global";
 
 import CircleMesh from "circle-mesh";
-import Trianglify from "trianglify";
 
 const Divider = styled(ParallaxLayer)`
   ${tw("absolute w-full h-full")};
@@ -332,55 +331,31 @@ const Index = () => (
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
-            <ProjectCard
+            <TrianglifyCard
               title="Data Quality"
               link="https://github.com/wilcoxlab"
-              bg={`url(${Trianglify({
-                width: 900,
-                height: 500,
-                cell_size: 50,
-                x_colors: ["#121212", "#4b2e83", "#85754d"] // "#85754d" "#e8e3d3" "#4b2e83"
-              }).png()})`}
             >
               Library of rules to assess the quality of clinical databases.
-            </ProjectCard>
-            <ProjectCard
+            </TrianglifyCard>
+            <TrianglifyCard
               title="OMOP CDM"
               link="https://github.com/wilcoxlab/ohdsi-contrib-docker"
-              bg={`url(${Trianglify({
-                width: 900,
-                height: 500,
-                cell_size: 50,
-                x_colors: ["#121212", "#4b2e83", "#85754d"] // "#85754d" "#e8e3d3" "#4b2e83"
-              }).png()})`}
             >
               Docker containers to automate the setup of various OHDSI services.
-            </ProjectCard>
-            <ProjectCard
+            </TrianglifyCard>
+            <TrianglifyCard
               title="Computational Phenotyping"
               link="https://github.com/wilcoxlab"
-              bg={`url(${Trianglify({
-                width: 900,
-                height: 500,
-                cell_size: 50,
-                x_colors: ["#121212", "#4b2e83", "#85754d"] // "#85754d" "#e8e3d3" "#4b2e83"
-              }).png()})`}
             >
               Portable phenotypes executable against a FHIR server.
-            </ProjectCard>
-            <ProjectCard
+            </TrianglifyCard>
+            <TrianglifyCard
               title="High Risk Patient Prediction"
               link="https://github.com/wilcoxlab"
-              bg={`url(${Trianglify({
-                width: 900,
-                height: 500,
-                cell_size: 50,
-                x_colors: ["#121212", "#4b2e83", "#85754d"] // "#85754d" "#e8e3d3" "#4b2e83"
-              }).png()})`}
             >
               Predictive models for detecting high risk patient in a number of
               scenarios.
-            </ProjectCard>
+            </TrianglifyCard>
           </ProjectsWrapper>
         </Inner>
       </Content>
@@ -618,7 +593,7 @@ const Index = () => (
         <Footer>Wilcox Lab &copy; 2018</Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
-        {/* <UpDown>
+        <UpDown>
           <SVG
             icon="upDown"
             className={hidden}
@@ -680,7 +655,7 @@ const Index = () => (
           stroke={colors["grey-darkest"]}
           left="80%"
           top="70%"
-        /> */}
+        />
       </Divider>
     </Parallax>
   </React.Fragment>
