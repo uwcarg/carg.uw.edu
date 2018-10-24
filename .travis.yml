@@ -13,6 +13,7 @@ addons:
 before_script:
   - npm install -g gatsby-cli
 script:
+  - npm install
   - gatsby build
 
 deploy:
