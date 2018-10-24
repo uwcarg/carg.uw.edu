@@ -54,15 +54,11 @@ export const TrianglifyCard = ({ title, link, children, cols }) => {
   var s = new XMLSerializer();
   var svgString = s.serializeToString(svg);
 
-  console.log("" + svgString);
-
   const btoa = window
     ? window.btoa
     : x => new Buffer(x, "base64").toString("binary");
 
   const svg64 = btoa(svgString);
-
-  console.log("$$$$ " + svg64);
 
   return (
     <ProjectCard
