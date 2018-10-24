@@ -8,4 +8,4 @@ sudo: false
 before_script:
   - npm install -g gatsby-cli
 script:
-  - gasby build
+  - gatsby build
