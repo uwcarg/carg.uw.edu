@@ -69,7 +69,7 @@ const Title = styled.h1`
   )};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   &:before {
-    content: '';
+    content: "";
     width: 40px;
     height: 40px;
     background: url(${triangle});
@@ -353,7 +353,7 @@ const Index = () => (
               title="High Risk Patient Prediction"
               link="https://github.com/wilcoxlab"
             >
-              Predictive models for detecting high risk patient in a number of
+              Predictive models for detecting high risk patients in a number of
               scenarios.
             </TrianglifyCard>
           </ProjectsWrapper>
