@@ -43,6 +43,7 @@
   "scripts": {
     "develop": "gatsby develop -o -p 9339",
     "build": "gatsby build",
+    "clean": "rimraf ./public",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "predevelop": "postcss tailwind.css -o tailwind.custom.css",
@@ -57,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "rimraf": "^2.6.2"
   }
 }

@@ -5,7 +5,18 @@ node_js:
 dist: trusty
 sudo: false
 
+addons:
+  apt:
+    packages:
+      - sshpass
+
 before_script:
   - npm install -g gatsby-cli
 script:
   - gatsby build
+
+deploy:
+  provider: script
+  script: sshpass -p ${TRAVIS_PASS} scp -r public/* ${TRAVIS_USER}@wilcoxlab.uw.edu:/opt/wilcoxlab/www/
+  on:
+    branch: master
