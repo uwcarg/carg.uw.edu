@@ -38,7 +38,7 @@
   "keywords": ["clinical", "data", "science"],
   "scripts": {
     "develop": "gatsby develop -o -p 9339",
-    "build": "npm run prebuild && gatsby build",
+    "build": "gatsby build",
     "clean": "rimraf ./public",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",

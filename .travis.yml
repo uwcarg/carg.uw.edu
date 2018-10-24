@@ -14,7 +14,7 @@ before_script:
   - npm install -g gatsby-cli
 script:
   - npm install
-  - gatsby build
+  - npm run build
 
 deploy:
   skip_cleanup: true
