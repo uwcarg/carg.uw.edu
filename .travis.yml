@@ -16,6 +16,7 @@ script:
   - gatsby build
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: sshpass -e scp -r public/* travis@wilcoxlab.uw.edu:/opt/wilcoxlab/www/
   on:
