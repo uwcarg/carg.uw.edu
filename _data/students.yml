@@ -8,9 +8,9 @@
 #  education3:
 #  education4:
 
-- name: Corne Koks
+- name: Pascal Brandt
   photo: rock.jpg
-  info: Master student
-  email: -@Physics.LeidenUniv.nl
-  number_educ: 0
-  education1:
+  info: PhD student
+  email: psbrandt@uw.edu
+  number_educ: 1
+  education1: MSc, Computer Science, UKZN
