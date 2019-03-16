@@ -4,3 +4,27 @@
   email: abwilcox@uw.edu
   number_educ: 1
   education1: PhD, Biomedical Informatics, Columbia University
+- name: Pascal Brandt
+  photo: pascal.png
+  info: PhD Student
+  email: psbrandt@uw.edu
+  number_educ: 1
+  education1: MSc, Computer Science, UKZN
+- name: Jason Thomas
+  photo: jason.png
+  info: PhD Student
+  email: thomasjt@uw.edu
+  number_educ: 1
+  education1: BS, Biology, Human Physiology, University of Oregon
+- name: Andrew Teng
+  photo: andrew.jpg
+  info: PhD Student
+  email: akteng@uw.edu
+  number_educ: 1
+  education1: MS, Bioinformatics, Georgia Institute of Technology
+- name: YiFan Wu
+  photo: yifan.jpg
+  info: PhD Student
+  email: yifwu@uw.edu
+  number_educ: 1
+  education1: MPH, Biostatistics, University of Michigan

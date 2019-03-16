@@ -1,14 +1,14 @@
 ---
-title: "Allan Lab - Team"
+title: "Wilcox Lab - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "Wilcox Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
 
 # Team
 
-**We are looking for new PhD students, Postdocs, and Master students to join the team!**
+**We are looking for new PhD students, postdocs, and masters students to join the team!**
 
 <!--
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
@@ -25,7 +25,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
@@ -82,6 +82,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 </div>
 {% endif %}
+
+<!--
 
 ## Master and Bachelor Students
 
@@ -144,6 +146,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
+-->
+
 ## Alumni
 
 {% assign number_printed = 0 %}
@@ -157,7 +161,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/alum/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden">
