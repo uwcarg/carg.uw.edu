@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-Intro to the lab here.
+The Wilcox Lab at the [University of Washington](http://www.washington.edu/) comprises students working with Prof. Adam Wilcox on original research projects in the fields of [Biomedical and Health Informatics (BIME)](http://bime.uw.edu/) and [Data Science](https://escience.washington.edu/). We represent the main analytics group in BIME. [Specifically](http://bime.uw.edu/service-and-practice/analytics/), we build tools, develop methods, invent techniques, devise models, and conduct studies on and to better enable secondary use of health information in hospital and distributed research network environments. We are active members of the [ODHSI research network](https://www.ohdsi.org/).
 
 <!--
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
