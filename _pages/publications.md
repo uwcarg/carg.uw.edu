@@ -12,7 +12,7 @@ For a full list, please see [google scholar](https://scholar.google.com/citation
 
 ## Posters
 
-Thomas JA, Joo EJ, Wilcox AB. Readmissions: Data Quality and Prediction. National Library of Medicine Informatics Training Conference; 2018; Nashville, USA. [pdf](wilcoxlab.github.io/pdfs/sameDayReadmitDQ.pdf)
+Thomas JA, Joo EJ, Wilcox AB. Readmissions: Data Quality and Prediction. National Library of Medicine Informatics Training Conference; 2018; Nashville, USA. [pdf](/pdfs/sameDayReadmitDQ.pdf)
 
 
 ## Talks
