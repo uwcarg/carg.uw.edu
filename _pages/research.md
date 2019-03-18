@@ -16,7 +16,7 @@ The Wilcox lab actively conducts a broad range of applied clinical data science 
 #### **Sepsis**
 
 #### **Authentication behaviors to access clinical data**
-Our goal is to assess the relationship between qualitative authentication-focused survey responses with quantitative log data, unearth different groups of users that may be best served by unique authentication schemes rather than a “one size fits all” policy, and report the effect of recent and prospective authentication implementations at UW Medicine to be generalized to other health systems. This project is an ongoing collaboration with the information security and privacy team at UW Medicine.
+Our goal is to assess different groups of users that may be best served by unique authentication schemes rather than a “one size fits all” policy, and report the effect of recent and prospective authentication implementations at UW Medicine to be generalized to other health systems. This project is an ongoing collaboration with the information security and privacy team at UW Medicine.
 
 #### **Using the EHR to answer clinical questions**
 
@@ -28,4 +28,4 @@ The aim of this project is to assess unplanned same-day readmission prediction d
 #### **EHR data quality assessment tools**
 The goal of this project is to create a framework and tool for data quality assessment within distributed research networks that addresses whether or not data are of quality “fit for use” for knowledge discovery from the EHR.
 
-## **Computational Phenotyping**
+## Computational Phenotyping
