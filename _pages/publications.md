@@ -7,19 +7,14 @@ permalink: /publications/
 ---
 
 # Publications
+For a full list, please see [google scholar](https://scholar.google.com/citations?hl=en&user=O6GOa0AAAAAJ&view_op=list_works&sortby=pubdate).
 
-## Highlights
-
-Maybe we want this?
-
-## Papers
-
-Do we have this?
 
 ## Posters
 
-Here we have stuff I believe.
+Thomas JA, Joo EJ, Wilcox AB. Readmissions: Data Quality and Prediction. National Library of Medicine Informatics Training Conference; 2018; Nashville, USA. [pdf](wilcoxlab.github.io/pdfs/sameDayReadmitDQ.pdf)
+
 
 ## Talks
 
-This section could be dropped?
+Wilcox, Adam. Big Data, Bias and Analytics -- What Can Your EHR Really Tell You? Intermountain Healthcare. 2015. [Video](https://hsc.mediaspace.kaltura.com/media/t/0_utc1my47/21706602)
