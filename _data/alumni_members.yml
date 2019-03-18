@@ -3,14 +3,22 @@
   duration: 2016-2018
   info: Biomedical Informatics masters student
   email: rwbuie@uw.edu
-  number_educ: 1
-  education1: MS, Biomedical Informatics, UW
   thesis: "[The Use of Inter-Provider Variation in Measuring Healthcare Performance](http://bime.uw.edu/student_status/graduated/#demo343)"
 - name: Kevin Li
   photo: kevin.jpg
   duration: 2016-2018
   info: Biomedical Informatics masters student
   email: efawe@uw.edu
-  number_educ: 1
-  education1: MS, Biomedical Informatics, UW
   thesis: "[Understanding the practical utility of using the analytic potential of patient data in Identifying the High Cost patients](http://bime.uw.edu/student_status/graduated/#demo343)"
+- name: Yiqun Rong
+  photo: yiqun.jpg
+  duration: 2016-2018
+  info: Biomedical Informatics masters student
+  email: ryq94@uw.edu
+  thesis: "[Identification of Physicians and EHR User Types](http://bime.uw.edu/student_status/graduated/)"
+- name: Denise Lin
+  photo: denise.jpg
+  duration: 2016-2018
+  info: Biomedical Informatics masters student
+  email: denisel8@uw.edu
+  thesis: "[Evaluating Different Approaches to Simplifying Data Access for Clinical Users](http://bime.uw.edu/student_status/graduated/)"
