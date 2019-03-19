@@ -13,7 +13,7 @@ The Wilcox lab actively conducts a broad range of applied clinical data science 
 ## Clinical Analytics
 
 **High-risk patient prediction**
-We are currently exploring predictive analytics solutions are tools that may be beneficial in the early detection of sepsis or death related to sepsis. Many healthcare systems across the country use the same SIRS/qSOFA criteria for detection. However, because this general rule may not be best applied to these patients of high-risk. We are currently in the beginning stages of working and creating a customized sepsis detection algorithm for Harborview Medical Center.
+We are currently exploring predictive analytics solutions tools that may be beneficial in the early detection of sepsis or death related to sepsis. Many healthcare systems across the country use SIRS/qSOFA criteria for detection. However, this general rule may not be best applied to these patients of high-risk. We are currently in the beginning stages of working and creating a customized sepsis detection algorithm for Harborview Medical Center.
 
 
 **Authentication behaviors to access clinical data**
