@@ -12,12 +12,12 @@ The Wilcox lab actively conducts a broad range of applied clinical data science 
 
 ## Clinical Analytics
 
-**Sepsis**
+**High-risk patient prediction**
+We are currently exploring predictive analytics solutions are tools that may be beneficial in the early detection of sepsis or death related to sepsis. Many healthcare systems across the country use the same SIRS/qSOFA criteria for detection. However, because this general rule may not be best applied to these patients of high-risk. We are currently in the beginning stages of working and creating a customized sepsis detection algorithm for Harborview Medical Center.
+
 
 **Authentication behaviors to access clinical data**
 Our goal is to assess different groups of users that may be best served by unique authentication schemes rather than a “one size fits all” policy, and report the effect of recent and prospective authentication implementations at UW Medicine to be generalized to other health systems. This project is an ongoing collaboration with the information security and privacy team at UW Medicine.
-
-**Using the EHR to answer clinical questions**
 
 ## Data Quality
 
